@@ -1,8 +1,11 @@
 <a href="#" class="card__container">
     <img
     class="card__img"
-    src="https://cdn.cloudflare.steamstatic.com/steam/apps/345820/library_600x900_2x.jpg?t=1572910710"
+    [src]=[gameCover]
     alt="">
-    <app-card-label gameLabel="Exclusive"/>
-    <app-card-pricing></app-card-pricing>
+    <app-card-label [gameLabel]="gameLabel"/>
+    <app-card-pricing 
+        [gameType]="gameType"
+        [gamePrice]="gamePrice"
+    />
 </a>
