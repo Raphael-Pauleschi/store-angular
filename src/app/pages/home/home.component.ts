@@ -9,8 +9,6 @@ import { GameData } from 'src/app/models/GameData';
 })
 export class HomeComponent {
   data:GameData[] = Data
-  constructor(){
-    console.log(Data)
-  }
+
 
 }
