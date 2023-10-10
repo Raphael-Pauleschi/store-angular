@@ -13,7 +13,7 @@ export default [
       'https://cdn.cloudflare.steamstatic.com/steam/apps/692850/library_600x900_2x.jpg?t=1669134724',
     gamePrice: 'R$ 75,49',
     gameName: 'Bloodstained: Ritual of the Night',
-    gameLabel: 'From castlevania creator',
+    gameLabel: 'From Castlevania Creator',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export default [
       'https://cdn.cloudflare.steamstatic.com/steam/apps/586140/library_600x900_2x.jpg?t=1638944011',
     gamePrice: 'R$ 72,99',
     gameName: 'BlazBlue: CentralFiction',
-    gameLabel: 'On Sale',
+    gameLabel: 'Netcode Support',
   },
   {
     id: 3,

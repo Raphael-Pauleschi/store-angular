@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "psn-store-interface-clone-angular": {
+    "Store": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/psn-store-interface-clone-angular",
+            "outputPath": "dist/Store",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "psn-store-interface-clone-angular:build:production"
+              "browserTarget": "Store:build:production"
             },
             "development": {
-              "browserTarget": "psn-store-interface-clone-angular:build:development"
+              "browserTarget": "Store:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "psn-store-interface-clone-angular:build"
+            "browserTarget": "Store:build"
           }
         },
         "test": {

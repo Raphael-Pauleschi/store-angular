@@ -14,4 +14,5 @@ export class CardComponent {
   gameName: string = '';
   @Input()
   gameLabel: string = '';
+
 }
