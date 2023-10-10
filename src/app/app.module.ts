@@ -10,7 +10,8 @@ import { CardLabelComponent } from './components/card/card-label/card-label.comp
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
 import { AboutComponent } from './pages/about/about.component';
 import { InfoComponent } from './components/info/info.component';
-import { CardInfoComponent } from './components/info/card-info/card-info.component';
+import { InfoCardComponent } from './components/info/info-card/info-card.component';
+import { InfoFooterComponent } from './components/info/info-footer/info-footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardInfoComponent } from './components/info/card-info/card-info.compone
     CardPricingComponent,
     AboutComponent,
     InfoComponent,
-    CardInfoComponent
+    InfoCardComponent,
+    InfoFooterComponent
   ],
   imports: [
     BrowserModule,
