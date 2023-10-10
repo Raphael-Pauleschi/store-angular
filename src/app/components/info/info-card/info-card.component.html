@@ -1,13 +1,11 @@
 <div class="info-card__container">
   <div class="info-card__content">
-      <h1 class="info-card__title">Touhou Luna Nights</h1>
-    <div class="info-card__developer">Team Ladybug</div>
+      <h1 class="info-card__title">{{gameName}}</h1>
+    <div class="info-card__developer">{{gameDeveloper}}</div>
     <ul>
-      <li>Metroidvania</li>
-      <li>Protagonista Mulher</li>
-      <li>Bullet Hell</li>
+      <li *ngFor="let category of gameCategories">{{category}}</li>
     </ul>
-    <p>R$ 34,99</p>
+    <p>{{gamePrice}}</p>
     <button class="add-button">Add to cart</button>
   </div>
 </div>

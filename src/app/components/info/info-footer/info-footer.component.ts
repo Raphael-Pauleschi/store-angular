@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-info-footer',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./info-footer.component.css']
 })
 export class InfoFooterComponent {
+  @Input()
+   gameClassification: string = ""
 
 }

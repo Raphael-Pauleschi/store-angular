@@ -1,5 +1,6 @@
 <div class="info-footer__container">
     <div class="info-footer__content">
-        <p>Não recomendado para menores de 10 Anos</p>
+        <p *ngIf="gameClassification == 'L'">Livre para todos os publicos</p>
+        <p *ngIf="gameClassification != 'L'">Não recomendado para menores de {{gameClassification}} anos</p>
     </div>
 </div>

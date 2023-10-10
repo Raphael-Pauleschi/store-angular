@@ -1,10 +1,15 @@
 <div class="info__container">
     <img 
         class="game__header" 
-        src="https://cdn.cloudflare.steamstatic.com/steam/apps/851100/capsule_616x353.jpg?t=1560651934" 
+        [src]=[gameHeader]
         alt=""
         >
-    <app-info-card></app-info-card>
-    <app-info-footer></app-info-footer>
+    <app-info-card
+    gameDeveloper="{{gameDeveloper}}"
+    gameName="{{gameName}}"
+    gamePrice="{{gamePrice}}"
+    [gameCategories]="gameCategories"
+    ></app-info-card>
+    <app-info-footer gameClassification="{{gameClassification}}"></app-info-footer>
 
 </div>
