@@ -11,9 +11,9 @@ export default [
     gameName: "Shantae and the Pirate's Curse",
     gameLabel: 'Indie Game',
     gameCategories: [
-      { name: 'Metroidvania' },
-      { name: 'Platform' },
-      { name: 'Comedy' },
+       'Metroidvania' ,
+       'Platform' ,
+       'Comedy' ,
     ],
   },
   {
@@ -28,9 +28,9 @@ export default [
     gameName: 'Bloodstained: Ritual of the Night',
     gameLabel: 'From Castlevania Creator',
     gameCategories: [
-      { name: 'Metroidvania' },
-      { name: 'Dark Fantasy' },
-      { name: '2.5D' },
+       'Metroidvania' ,
+       'Dark Fantasy' ,
+       '2.5D' ,
     ],
   },
   {
@@ -45,9 +45,9 @@ export default [
     gameName: 'BlazBlue: CentralFiction',
     gameLabel: 'Netcode Support',
     gameCategories: [
-      { name: 'Visual Novel' },
-      { name: 'Fighting Game' },
-      { name: 'Fantasy' },
+       'Visual Novel' ,
+       'Fighting Game' ,
+        'Fantasy' ,
     ],
   },
   {
@@ -61,7 +61,7 @@ export default [
     gamePrice: 'R$ 37,99',
     gameName: 'Azure Striker Gunvolt 2',
     gameLabel: 'Indie Game',
-    gameCategories: [{ name: 'Platform' }, { name: 'Action' }, { name: '2D' }],
+    gameCategories: [ 'Platform' ,  'Action' ,  '2D' ],
   },
   {
     id: 4,
@@ -75,9 +75,9 @@ export default [
     gameName: 'Megaman Zero/ZX Legacy Collection',
     gameLabel: 'Collection',
     gameCategories: [
-      { name: 'Retro' },
-      { name: 'Platform' },
-      { name: 'Sci-fi' },
+       'Retro' ,
+      'Platform' ,
+       'Sci-fi' ,
     ],
   },
   {
@@ -92,9 +92,9 @@ export default [
     gameName: 'Neddy Streamer Overload',
     gameLabel: 'Indie Game',
     gameCategories: [
-      { name: 'Psychological' },
-      { name: 'Point-and-click' },
-      { name: 'Visual Novel' },
+      'Psychological' ,
+       'Point-and-click' ,
+       'Visual Novel' ,
     ],
   },
   {
@@ -109,9 +109,9 @@ export default [
     gameName: 'Mushihimesama',
     gameLabel: 'Arcade',
     gameCategories: [
-      { name: 'Bullet Hell' },
-      { name: 'Hard' },
-      { name: 'Points' },
+       'Bullet Hell' ,
+       'Hard' ,
+     'Points' ,
     ],
   },
   {
@@ -126,9 +126,9 @@ export default [
     gameName: 'Touhou: Luna Nights',
     gameLabel: 'Indie Game',
     gameCategories: [
-      { name: 'Metroidvania' },
-      { name: 'Female Protagonist' },
-      { name: 'Bullet Hell' },
+       'Metroidvania' ,
+       'Female Protagonist' ,
+     'Bullet Hell' ,
     ],
   },
 ];

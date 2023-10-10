@@ -2,5 +2,6 @@
     <div class="info-footer__content">
         <p *ngIf="gameClassification == 'L'">Livre para todos os publicos</p>
         <p *ngIf="gameClassification != 'L'">Não recomendado para menores de {{gameClassification}} anos</p>
+        <a [routerLink]="['']">Voltar</a>
     </div>
 </div>

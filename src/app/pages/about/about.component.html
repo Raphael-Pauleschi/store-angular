@@ -1,4 +1,10 @@
 <div class="about__container">
-    <app-info>        
+    <app-info 
+    gameName="{{info.gameName}}"
+    [gameCategories]="info.gameCategories"
+    gameClassification="{{info.gameClassification}}"
+    gameDeveloper="{{info.gameDeveloper}}"
+    gameHeader="{{info.gameHeader}}"
+    gamePrice="{{info.gamePrice}}">        
     </app-info>
 </div>

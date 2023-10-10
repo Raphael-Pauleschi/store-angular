@@ -2,12 +2,11 @@
   position: absolute;
   bottom: 20px;
   left: 100px;
-
   display: flex;
   flex-direction: column;
 
   width: 40%;
-  height: 350px;
+  height: 400px;
   padding: 10px;
 
   background-color: #191C1D;

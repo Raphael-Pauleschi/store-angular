@@ -7,17 +7,17 @@ import { Component, Input } from '@angular/core';
 })
 export class InfoComponent {
   @Input()
-  gameHeader: string = 'https://cdn.cloudflare.steamstatic.com/steam/apps/851100/capsule_616x353.jpg?t=1560651934'
+  gameHeader: string = ''
   @Input()
-  gameName: string = 'Touhou Luna Nights'
+  gameName: string = ''
   @Input()
-  gameDeveloper: string = 'Team ladybug'
+  gameDeveloper: string = ''
   @Input()
-  gameCategories:string [] = ['Metroidvania','Female Protagonist','Bullet Hell']
+  gameCategories:string [] = []
   @Input()
-  gamePrice: string = "R$ 34,99"
+  gamePrice: string = ""
   @Input()
-  gameClassification: string = "10"
+  gameClassification: string = ""
 
 
 
