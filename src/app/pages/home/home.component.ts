@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import Data from '../../service/data'
+import { GameData } from 'src/app/models/GameData';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  data:GameData[] = Data
+  constructor(){
+    console.log(Data)
+  }
 
 }

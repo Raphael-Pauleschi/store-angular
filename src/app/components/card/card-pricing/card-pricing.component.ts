@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CardPricingComponent {
   @Input()
-  gameType:string = ""
+  gameName:string = ""
   @Input()
   gamePrice: string = ""
 

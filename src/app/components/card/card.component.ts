@@ -11,7 +11,7 @@ export class CardComponent {
   @Input()
   gamePrice: string = '';
   @Input()
-  gameType: string = '';
+  gameName: string = '';
   @Input()
   gameLabel: string = '';
 }
