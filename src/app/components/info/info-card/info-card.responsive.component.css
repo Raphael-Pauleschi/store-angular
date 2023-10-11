@@ -1,0 +1,10 @@
+@media screen and (max-width: 960px) {
+    .info-card__container {
+        bottom: 100px;
+        left: 50px;
+        width: 80%;
+        height: 400px;
+        padding: 10px;
+      
+      }
+}

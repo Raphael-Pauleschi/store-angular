@@ -24,3 +24,16 @@
 .info-footer__content >p {
     margin-left: 500px ;
 }
+
+@media screen and (max-width: 960px) {
+  .info-footer__content {
+    display: flex;
+    align-items: normal;
+    margin-top: 200px;
+  }
+  
+  .info-footer__content >p {
+   
+      margin-left: 100px;
+  }
+}
